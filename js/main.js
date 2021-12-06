@@ -37,7 +37,7 @@ function drawScore() {
 }
 
 function gameOver() {
-  clearInterval(intervalID);
+  clearInterval(intervalId);
   ctx.font = "60px Courier";
   ctx.fillStyle = "Black";
   ctx.textAlign = "center";
