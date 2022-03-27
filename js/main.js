@@ -170,7 +170,7 @@ let intervalId = setInterval(function () {
   snake.draw();
   apple.draw();
   drawBorder();
-}, 50);
+}, 100);
 
 // Обрабочик событий
 
